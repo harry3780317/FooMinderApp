@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "37597606523",
+    "firebase_url": "https://foominder.firebaseio.com",
+    "project_id": "foominder",
+    "storage_bucket": "foominder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37597606523:android:e6f0b3cf9fd1b2c2",
+        "android_client_info": {
+          "package_name": "com.example.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37597606523-83vopdgss2ndr63tcliud9ppqemkgdm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.starter",
+            "certificate_hash": "7f409b99e378a899e07a1a9afdfb9bf85c83d9a0"
+          }
+        },
+        {
+          "client_id": "37597606523-3ub0q1gs8mj10sc0kfc6s2kspsv4hf1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe5h2lkLaL3nEMhlyVI5VZ73UNXZLGb7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37597606523-3ub0q1gs8mj10sc0kfc6s2kspsv4hf1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

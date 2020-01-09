@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FooMinder</string>
+    <string name="welcomebackBtn">Welcome Back</string>
+    <string name="firsttimeuserBtn">First Time User</string>
+    <string name="switchuserBtn">Switch User</string>
+    <string name="whatisyourname">What should we call you?</string>
+    <string name="yourname">Name</string>
+    <string name="confirm">Next</string>
+    <string name="username">NameofUser</string>
+    <string name="startCapture">Scan</string>
+    <string name="scan">Scan Receipt</string>
+    <string name="checkFridge">Check My Fridge</string>
+    <string name="fridge">Fridge Status</string>
+    <string name="home">Home</string>
+    <string name="viewList">View My List</string>
+    <string name="receiptRec">Receipt Record</string>
+    <string name="help">Help</string>
+    <string name="aboutUs">About Us</string>
+    <string name="tryimageview">This is your pic</string>
+    <string name="imagetotext">This is image to text</string>
+    <string name="convertimagetotext">Convert</string>
+    <string name="provider_permission">com.team6capstone.textrecognizer.fileprovider</string>
+    <string name="welcomePage">Thank you for downloading our application.\n\nWith this application, you will record and track your grocery list and keep reminded for consuming food that were bought for a long time but haven\'t eaten.</string>
+    <string name="startBtn">Let\'s start!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="goback">Back</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="hello">Hello!</string>
+    <string name="pressButton">Please press the button to scan your receipt.</string>
+    <string name="noReceipt">If you don\'t have a receipt, please record here</string>
+    <string name="recordBtn">Record</string>
+    <string name="notComplete">Still in testing</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="meettheteam">Meet the Team</string>
+    <string name="aboutus">Company: Freshist\nXiaoyan Zhang CEO\nYixin Hu CIO\nWei Liang CPO\n Ruihong Gong CTO\n</string>
+    <string name="howwename">How We Name</string>
+    <string name="naming">Freshist = Fresh + List\nFooMinder = Food + Reminder</string>
+    <string name="applicationInfo">Application Info</string>
+    <string name="projectDescription">Nowadays, people\'s life is more fast-paced, and people have fewer chances to buy fresh fruits and vegetables every day. They tend to buy a lot of vegetables, fruits and meat at once and use the refrigerator as a place to store food for a long time.\nAs most people may or may not notice that on the one hand, fruits and vegetables stored in the refrigerator for a long time are likely to lose their nutritive value. On the other hand, fruits and vegetables stored in the refrigerator are easy to be forgotten. By the time they realize, most of these fruits and vegetables have gone bad and need to be thrown away. Therefore, our team came
+up with this project aims to reduce food waste for such reasons. If we can reduce such food waste, we are able to save money on buying groceries and moreover help accomplish the world’s sustainable goal.\nOur product, FooMinder, is designed to consist of a mobile application and a fridge detector.</string>
+    <string name="FAQ">Frequently Asked Questions</string>
+    <string name="on_off">ON/OFF</string>
+    <string name="list_device">LIST DEVICE</string>
+    <string name="bluetooth_status">Bluetooth Status</string>
+    <string name="data_window">Data Window</string>
+    <string name="pullData">pullData</string>
+    <string name="save">save</string>
+    <string name="location_permission_title">Location permission required</string>
+    <string name="location_permission_message">This app does not use location information, but scanning for Bluetooth LE devices requires this permission</string>
+    <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
+    <string name="info">Regular fridge temperature range\nis between 0 to 10 °C.\nRelative Humidity range\nis between 0% to 60%.\nAlcohol concentration range\nis below 1000 ppm. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

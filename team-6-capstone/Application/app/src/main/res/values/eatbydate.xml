@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="eatbydateFruitsURL" type="string">http://www.eatbydate.com/fruits</item>
+    <item name="eatbydateVegetablesURL" type="string">http://www.eatbydate.com/vegetables</item>
+</resources>

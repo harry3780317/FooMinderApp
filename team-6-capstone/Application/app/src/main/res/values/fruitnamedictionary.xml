@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fruit_vegetable_names">
+        <item>apple</item>
+        <item>apricot</item>
+        <item>avocados</item>
+        <item>banana</item>
+        <item>blueberry</item>
+        <item>cantaloupe</item>
+        <item>cherry</item>
+        <item>coconut</item>
+        <item>fig</item>
+        <item>grapefruit</item>
+        <item>grape</item>
+        <item>honeydew</item>
+        <item>kiwi</item>
+        <item>lemon</item>
+        <item>lime</item>
+        <item>mango</item>
+        <item>olive</item>
+        <item>orange</item>
+        <item>papaya</item>
+        <item>peach</item>
+        <item>pear</item>
+        <item>pineapple</item>
+        <item>pomegranate</item>
+        <item>pumpkin</item>
+        <item>strawberry</item>
+        <item>tomatoes</item>
+        <item>watermelon</item>
+        <item>artichoke</item>
+        <item>asparagus</item>
+        <item>broccoli</item>
+        <item>cabbage</item>
+        <item>carrot</item>
+        <item>cauliflower</item>
+        <item>celery</item>
+        <item>cucumber</item>
+        <item>eggplant</item>
+        <item>garlic</item>
+        <item>kale</item>
+        <item>lemongrass</item>
+        <item>lettuce</item>
+        <item>mushroom</item>
+        <item>onion</item>
+        <item>parsnip</item>
+        <item>pepper</item>
+        <item>pickle</item>
+        <item>potato</item>
+        <item>spinach</item>
+        <item>squash</item>
+        <item>zucchini</item>
+    </string-array>
+</resources>

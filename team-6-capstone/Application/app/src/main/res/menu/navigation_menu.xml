@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@mipmap/baseline_list_black_24dp"
+            android:title="@string/viewList" />
+
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@mipmap/baseline_camera_alt_black_24dp"
+            android:title="@string/scan" />
+
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@mipmap/baseline_note_add_black_24dp"
+            android:title="@string/receiptRec" />
+
+        <item
+            android:id="@+id/nav_fridge"
+            android:icon="@mipmap/baseline_bluetooth_black_24dp"
+            android:title="@string/checkFridge" />
+
+    </group>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_switch"-->
+<!--        android:icon="@mipmap/baseline_person_add_black_24dp"-->
+<!--        android:title="@string/switchuserBtn" />-->
+
+    <item android:title="User Manual">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/baseline_settings_applications_black_24dp"
+                android:title="@string/action_settings" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@mipmap/baseline_help_black_24dp"
+                android:title="@string/help" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/baseline_face_black_24dp"
+                android:title="@string/aboutUs" />
+
+        </menu>
+
+    </item>
+
+</menu>

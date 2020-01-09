@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_primary"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/company_color"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/record_date"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/textview_border"
+        android:hint="  Date"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/record_quantity"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="254dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/textview_border"
+        android:hint="Quantity"
+        android:textSize="16dp"
+        android:inputType="number"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/addtext"
+        android:layout_width="145dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/textview_border"
+        android:hint="  Item"
+        android:textSize="17dp"/>
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="360dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="123dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/ListView"
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/textview_border"
+                android:choiceMode="multipleChoice" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/record_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/company_color"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/record_pulldata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/company_color"
+        android:text="PullData" />
+
+
+    <!--    <MultiAutoCompleteTextView-->
+<!--        android:id="@+id/multiAutoCompleteTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="MultiAutoCompleteTextView" />-->
+
+
+</RelativeLayout>

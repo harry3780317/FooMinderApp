@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="544dp"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/border"
+            app:srcCompat="@drawable/rounded_corners"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/border"
+            android:layout_alignRight="@id/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:onClick="finish"
+            app:srcCompat="@drawable/baseline_close_black_24dp" />
+
+        <TextView
+            android:id="@+id/welcomePage"
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:layout_alignTop="@id/border"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="116dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/welcomePage"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.471" />
+
+        <TextView
+            android:id="@+id/welcomeTitle"
+            android:layout_alignTop="@id/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/welcome"
+            android:textColor="@color/company_color"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/welcomePage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.604"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_alignTop="@id/border"
+            android:layout_marginTop="480dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_width="248dp"
+            android:layout_height="52dp"
+            android:background="@color/company_color"
+            android:fontFamily="casual"
+            android:text="@string/startBtn"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomePage"
+            app:layout_constraintVertical_bias="0.193" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

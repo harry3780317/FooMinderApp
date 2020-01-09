@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_primary"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="76dp"
+        android:background="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="Allow Notification"
+        android:textColor="#050505"
+        android:textSize="30dp" />
+
+    <Switch
+        android:id="@+id/sound"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="141dp"
+        android:fontFamily="casual"
+        android:text="Sound"
+        android:textColorLink="@color/bottom_bar_color"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Switch
+        android:id="@+id/vibration"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="187dp"
+        android:fontFamily="casual"
+        android:text="Vibration"
+        android:textColorLink="@color/bottom_bar_color"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+
+</RelativeLayout>

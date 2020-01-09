@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+android:background="@color/design_default_color_on_primary"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cleancache2"
+        android:layout_width="245dp"
+        android:layout_height="142dp"
+        android:layout_centerInParent="true"
+        android:width="20dp"
+        android:shadowColor="@color/colorPrimary"
+        android:background="@drawable/textview_border"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Clean Cache"
+        android:textSize="30dp" />
+</RelativeLayout>
