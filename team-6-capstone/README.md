@@ -12,10 +12,10 @@ harryg@sfu.ca
 Consists of two part.
 
 The **software** part is an android APP to perform image processing. 
-The users will open the APP, scan their receipt, and get the list of groceries. The expiration date data are pulled from the web (EatByDate) and set up the reminder. We are able to tell most of the common fruit and vegetables.
+The users will open the APP, scan their receipt, and get the list of groceries. The expiration date data are pulled from the web (EatByDate) and set up the reminder. Most of the common fruit and vegetables are recognizable.
 
-For the **hardware** part, we build a fridge status reminder which will place inside the fridge and remind the user when there is something rotten. Because the expiration date is correct under certain good conditions. To properly store food and analyze data accurately, we have added this dedicated environmental detector to the home refrigerator.
-The data from the sensors will be analyzed in Arduino and the results will send to our APP through Bluetooth. All these data will be stored in the database and visualized in the APP.
+For the **hardware** part, a fridge status reminder which will place inside the fridge and remind the user when there is something rotten. Because the expiration date is correct under certain good conditions. To properly store food and analyze data accurately, this dedicated environmental detector has been added to the home refrigerator.
+The data from the sensors will be analyzed in Arduino and the results will send to the APP through Bluetooth. All these data will be stored in the database and visualized in the APP.
 
 *Prerequisites*:
 Android Phone
